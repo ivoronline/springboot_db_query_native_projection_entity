@@ -1,6 +1,6 @@
-package com.ivoronline.springboot_db_query_native_projection_entity.repositories;
+package com.ivoronline.repository;
 
-import com.ivoronline.springboot_db_query_native_projection_entity.entities.Person;
+import com.ivoronline.entity.Person;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 

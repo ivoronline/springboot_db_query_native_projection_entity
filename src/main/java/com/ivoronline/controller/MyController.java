@@ -1,7 +1,7 @@
-package com.ivoronline.springboot_db_query_native_projection_entity.controllers;
+package com.ivoronline.controller;
 
-import com.ivoronline.springboot_db_query_native_projection_entity.entities.Person;
-import com.ivoronline.springboot_db_query_native_projection_entity.repositories.PersonRepository;
+import com.ivoronline.entity.Person;
+import com.ivoronline.repository.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
